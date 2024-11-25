@@ -18,7 +18,7 @@ const FirstView = () => {
       justifyContent={"center"}
     >
       <Box
-        height={{ xs: "30vh", md: "80vh" }}
+        height={{ xs: "38vh", md: "80vh" }}
         width={"100%"}
         bgcolor={"rgba(0, 0, 0, 1)"} // 半透明な黒
       >
