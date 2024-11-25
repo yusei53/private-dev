@@ -3,9 +3,20 @@ import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
 
+const siteName = "yodai 22nd birthday!";
+const description = "よーだい！22歳の誕生日おめでとう！！";
 export const metadata: Metadata = {
-  title: "yodai 22nd birthday!",
-  description: "よーだい！22歳の誕生日おめでとう！！",
+  title: siteName,
+  description: description,
+  openGraph: {
+    title: siteName,
+    description: description,
+  },
+  twitter: {
+    title: siteName,
+    description: description,
+    card: "summary_large_image",
+  },
 };
 
 export default function RootLayout({
