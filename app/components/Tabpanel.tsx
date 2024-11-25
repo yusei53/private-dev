@@ -46,23 +46,27 @@ const BasicTabs = () => {
             },
           }}
         >
-          <StyledTab label="一覧" color="#DE7897" />
-          <StyledTab label="25卒" color="#2AA6CD" />
-          <StyledTab label="26卒" color="#8161DE" />
-          <StyledTab label="27卒" color="#1CC033" />
+          <StyledTab label="性欲三銃士" color="#DE7897" />
+          <StyledTab label="流出探検隊" color="#2AA6CD" />
+          <StyledTab label="Uni(後輩)" color="#8161DE" />
+          <StyledTab label="Uni(同期)" color="#1CC033" />
+          <StyledTab label="Uni(先輩)" color="#1CC033" />
         </Tabs>
       </Box>
       <CustomTabPanel value={value} index={0}>
-        <GridCard />
+        <YearGridCard yearProps="性欲三銃士" cardColor={"#D7EEFF"} />
       </CustomTabPanel>
       <CustomTabPanel value={value} index={1}>
-        <YearGridCard yearProps="25卒" cardColor={"#D7EEFF"} />
+        <YearGridCard yearProps="流出探検隊" cardColor={"#D7EEFF"} />
       </CustomTabPanel>
       <CustomTabPanel value={value} index={2}>
-        <YearGridCard yearProps="26卒" cardColor={"#E7DAF8"} />
+        <YearGridCard yearProps="Uni(後輩)" cardColor={"#E7DAF8"} />
       </CustomTabPanel>
       <CustomTabPanel value={value} index={3}>
-        <YearGridCard yearProps="27卒" cardColor={"#D4EDD9"} />
+        <YearGridCard yearProps="Uni(同期)" cardColor={"#D4EDD9"} />
+      </CustomTabPanel>
+      <CustomTabPanel value={value} index={3}>
+        <YearGridCard yearProps="Uni(先輩)" cardColor={"#D4EDD9"} />
       </CustomTabPanel>
     </Box>
   );

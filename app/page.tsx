@@ -1,10 +1,10 @@
-import Subheader from "./components/Subheader";
+import FirstView from "./components/FirstView";
 import Tabpanel from "./components/Tabpanel";
 
 const Home = () => {
   return (
     <>
-      <Subheader />
+      <FirstView />
       <Tabpanel />
     </>
   );

@@ -23,10 +23,10 @@ const GridCard = () => {
             <Box px={{ xs: 3, sm: 5 }} py={{ xs: 2, sm: 4 }}>
               <Box position={"absolute"} right={-10} top={-10}>
                 <StyledImage
-                  src={"/sakura.png"}
+                  src={"/birth.png"}
                   alt={""}
-                  width={80}
-                  height={80}
+                  width={70}
+                  height={70}
                 />
               </Box>
               <Typography
