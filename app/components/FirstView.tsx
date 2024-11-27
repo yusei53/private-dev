@@ -8,7 +8,20 @@ import "swiper/css/navigation";
 import Image from "next/image";
 
 const FirstView = () => {
-  const images = ["y.jpg", "o.jpg", "d.jpg", "a.jpg", "i.jpg", "!.jpg"];
+  const images = [
+    "y.jpg",
+    "o.jpg",
+    "a.png",
+    "j.png",
+    "d.jpg",
+    "t.png",
+    "b.png",
+    "a.jpg",
+    "i.jpg",
+    "n.png",
+    "o.png",
+    "!.jpg",
+  ];
 
   return (
     <Box
@@ -25,7 +38,7 @@ const FirstView = () => {
         <Swiper
           loop={true}
           loopAdditionalSlides={1}
-          speed={9000}
+          speed={6500}
           autoplay={{
             delay: 0,
             disableOnInteraction: false,
@@ -58,7 +71,7 @@ const FirstView = () => {
               <Image
                 fill
                 src={`/${src}`}
-                alt={"image"}
+                alt={"よーだい生誕祭"}
                 style={{
                   objectFit: "cover",
                   opacity: 0.5,
